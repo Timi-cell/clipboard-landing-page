@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  user-select: none;
 }
 
 :root {
@@ -11,8 +12,8 @@
   --color-dark-grayBlue: hsl(210, 10%, 33%);
   --color-light-grayBlue: hsl(201, 11%, 66%);
   --header-font: 2.5rem;
-  --section-top-margin: 7rem;
-  --section-padding: 2.5rem;
+  --section-top-margin: 4rem;
+  --section-padding: 2rem;
 }
 html {
   font-size: 62.5%;
