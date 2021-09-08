@@ -92,14 +92,14 @@ body {
     background: url(../images/bg-header-mobile.png);
     background-repeat: no-repeat;
     background-position: top;
-    background-size:  100%;
+    background-size: 100%;
   }
 
   .header .mobile__logo {
     width: 11rem;
   }
 }
-@media screen and (max-width: 395px) {
+@media screen and (max-width: 500px) {
   button {
     width: 100%;
   }
