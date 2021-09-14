@@ -12,7 +12,7 @@
   --color-dark-grayBlue: hsl(210, 10%, 33%);
   --color-light-grayBlue: hsl(201, 11%, 66%);
   --header-font: 2.5rem;
-  --section-top-margin: 4rem;
+  --section-top-margin: 5rem;
   --section-padding: 2rem;
 }
 html {
@@ -285,6 +285,12 @@ body {
   }
   .sponsors img {
     width: auto;
+  }
+  .sponsors img:nth-child(2),
+  .sponsors img:nth-child(3),
+  .sponsors img:nth-child(4), 
+  .sponsors img:last-child{
+    margin-top: 5rem;
   }
 }
 
