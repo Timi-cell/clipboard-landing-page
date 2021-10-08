@@ -17,6 +17,11 @@
 }
 html {
   font-size: 62.5%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+:focus {
+  outline: none !important;
 }
 
 button {
@@ -288,8 +293,8 @@ body {
   }
   .sponsors img:nth-child(2),
   .sponsors img:nth-child(3),
-  .sponsors img:nth-child(4), 
-  .sponsors img:last-child{
+  .sponsors img:nth-child(4),
+  .sponsors img:last-child {
     margin-top: 5rem;
   }
 }
